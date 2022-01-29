@@ -8,7 +8,7 @@ def print_info_from_file(line_text):
     print(f"Delivered {count} {melon}s for total of ${amount}")
 
 
-print("Day 1")
+# print("Day 1")
 the_file = open("um-deliveries-day-1.txt")
 for line in the_file:
     print_info_from_file(line)
